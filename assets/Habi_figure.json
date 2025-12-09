@@ -1,0 +1,402 @@
+[
+  {
+    "HabiNickName": "NovaN",
+    "HabiUserIcon": "assets/habi_figure/1/habi_character_1_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/1/habi_character_1_img_1.webp",
+      "assets/habi_figure/1/habi_character_1_img_2.webp",
+      "assets/habi_figure/1/habi_character_1_img_3.webp",
+      "assets/habi_figure/1/habi_character_1_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/1/habi_character_1_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/1/habi_character_1_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "As a voice narrator, I thrive on innovation and originality in storytelling. I love sharing unconventional, groundbreaking stories that surprise and inspire my audience.",
+    "HabiShowFollowNum": 2,
+    "HabiShowLike": 8,
+    "HabiShowSayhi": "Hey! I've created some innovative, original stories! Ready to explore some groundbreaking narratives that break new ground?"
+  },
+  {
+    "HabiNickName": "EchoV",
+    "HabiUserIcon": "assets/habi_figure/2/habi_character_2_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/2/habi_character_2_img_1.webp",
+      "assets/habi_figure/2/habi_character_2_img_2.webp",
+      "assets/habi_figure/2/habi_character_2_img_3.webp",
+      "assets/habi_figure/2/habi_character_2_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/2/habi_character_2_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/2/habi_character_2_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "I'm a social storyteller who builds connections through engaging voice narration. My passion is sharing stories that bring people together and create community.",
+    "HabiShowFollowNum": 7,
+    "HabiShowLike": 9,
+    "HabiShowSayhi": "Hi there! I'm excited to share some community-focused stories. Ready to connect through these engaging narratives?"
+  },
+  {
+    "HabiNickName": "SageV",
+    "HabiUserIcon": "assets/habi_figure/3/habi_character_3_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/3/habi_character_3_img_1.webp",
+      "assets/habi_figure/3/habi_character_3_img_2.webp",
+      "assets/habi_figure/3/habi_character_3_img_3.webp",
+      "assets/habi_figure/3/habi_character_3_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/3/habi_character_3_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/3/habi_character_3_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "As a voice narrator, I focus on empathy and connection in storytelling. I love sharing warm, compassionate narratives that make listeners feel understood and valued.",
+    "HabiShowFollowNum": 2,
+    "HabiShowLike": 13,
+    "HabiShowSayhi": "Hey! I've got some heartfelt stories that I think will touch your heart. Ready to explore some warm, emotional narratives together?"
+  },
+  {
+    "HabiNickName": "LunaV",
+    "HabiUserIcon": "assets/habi_figure/4/habi_character_4_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/4/habi_character_4_img_1.webp",
+      "assets/habi_figure/4/habi_character_4_img_2.webp",
+      "assets/habi_figure/4/habi_character_4_img_3.webp",
+      "assets/habi_figure/4/habi_character_4_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/4/habi_character_4_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/4/habi_character_4_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "As a voice narrator, I enjoy planning and presenting stories in a clear, engaging way. Storytelling allows me to share organized, compelling narratives with my audience.",
+    "HabiShowFollowNum": 7,
+    "HabiShowLike": 13,
+    "HabiShowSayhi": "Hi there! I've got some carefully planned stories ready. Are you ready for a smooth, engaging storytelling experience?"
+  },
+  {
+    "HabiNickName": "AuraS",
+    "HabiUserIcon": "assets/habi_figure/5/habi_character_5_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/5/habi_character_5_img_1.webp",
+      "assets/habi_figure/5/habi_character_5_img_2.webp",
+      "assets/habi_figure/5/habi_character_5_img_3.webp",
+      "assets/habi_figure/5/habi_character_5_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/5/habi_character_5_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/5/habi_character_5_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "Storytelling is my art form. Through voice narration, I bring dreams and fantasies to life, sharing captivating stories that inspire creativity and wonder.",
+    "HabiShowFollowNum": 10,
+    "HabiShowLike": 8,
+    "HabiShowSayhi": "Hey! I've been crafting some amazing stories that I can't wait to share with you. Let's embark on a creative adventure together!"
+  },
+  {
+    "HabiNickName": "ZenVR",
+    "HabiUserIcon": "assets/habi_figure/6/habi_character_6_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/6/habi_character_6_img_1.webp",
+      "assets/habi_figure/6/habi_character_6_img_2.webp",
+      "assets/habi_figure/6/habi_character_6_img_3.webp",
+      "assets/habi_figure/6/habi_character_6_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/6/habi_character_6_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/6/habi_character_6_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "As a voice narrator, I enjoy systematic storytelling. I love sharing methodical, well-organized narratives that guide listeners through clear, logical storylines.",
+    "HabiShowFollowNum": 3,
+    "HabiShowLike": 9,
+    "HabiShowSayhi": "Hello! I have some analytical, organized stories to share. Let's dive into these systematic narratives step by step!"
+  },
+  {
+    "HabiNickName": "Pyxis",
+    "HabiUserIcon": "assets/habi_figure/7/habi_character_7_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/7/habi_character_7_img_1.webp",
+      "assets/habi_figure/7/habi_character_7_img_2.webp",
+      "assets/habi_figure/7/habi_character_7_img_3.webp",
+      "assets/habi_figure/7/habi_character_7_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/7/habi_character_7_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/7/habi_character_7_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "I'm a free-spirited storyteller who loves adventurous narratives and voice narration. My passion is sharing bold, exciting stories that break boundaries and inspire freedom.",
+    "HabiShowFollowNum": 4,
+    "HabiShowLike": 10,
+    "HabiShowSayhi": "Hey! I've got some bold, adventurous stories ready! Ready to explore some exciting, boundary-breaking narratives together?"
+  },
+  {
+    "HabiNickName": "Crysa",
+    "HabiUserIcon": "assets/habi_figure/8/habi_character_8_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/8/habi_character_8_img_1.webp",
+      "assets/habi_figure/8/habi_character_8_img_2.webp",
+      "assets/habi_figure/8/habi_character_8_img_3.webp",
+      "assets/habi_figure/8/habi_character_8_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/8/habi_character_8_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/8/habi_character_8_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "Storytelling and voice narration help me share practical wisdom. I love creating organized, relatable narratives that offer real insights and connect with listeners.",
+    "HabiShowFollowNum": 10,
+    "HabiShowLike": 10,
+    "HabiShowSayhi": "Hi there! I've organized some practical stories for you. Ready to explore these relatable, grounded narratives?"
+  },
+  {
+    "HabiNickName": "Stell",
+    "HabiUserIcon": "assets/habi_figure/9/habi_character_9_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/9/habi_character_9_img_1.webp",
+      "assets/habi_figure/9/habi_character_9_img_2.webp",
+      "assets/habi_figure/9/habi_character_9_img_3.webp",
+      "assets/habi_figure/9/habi_character_9_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/9/habi_character_9_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/9/habi_character_9_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "I'm an inspiring storyteller who motivates through powerful voice narration. My passion is sharing uplifting stories that energize and encourage my audience.",
+    "HabiShowFollowNum": 7,
+    "HabiShowLike": 9,
+    "HabiShowSayhi": "Hi! I'm excited to share some inspiring stories with you. Ready for an uplifting, motivational storytelling experience?"
+  },
+  {
+    "HabiNickName": "Mythi",
+    "HabiUserIcon": "assets/habi_figure/10/habi_character_10_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/10/habi_character_10_img_1.webp",
+      "assets/habi_figure/10/habi_character_10_img_2.webp",
+      "assets/habi_figure/10/habi_character_10_img_3.webp",
+      "assets/habi_figure/10/habi_character_10_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/10/habi_character_10_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/10/habi_character_10_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "Storytelling and voice narration are my crafts. I love constructing logical, well-designed narratives that guide listeners through engaging and meaningful stories.",
+    "HabiShowFollowNum": 6,
+    "HabiShowLike": 8,
+    "HabiShowSayhi": "Hey there! I've built some well-structured stories that I think you'll appreciate. Ready to explore these logical narratives?"
+  },
+  {
+    "HabiNickName": "Cosmo",
+    "HabiUserIcon": "assets/habi_figure/11/habi_character_11_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/11/habi_character_11_img_1.webp",
+      "assets/habi_figure/11/habi_character_11_img_2.webp",
+      "assets/habi_figure/11/habi_character_11_img_3.webp",
+      "assets/habi_figure/11/habi_character_11_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/11/habi_character_11_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/11/habi_character_11_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "Storytelling and voice narration are my greatest passions. I love exploring intricate plots and sharing engaging narratives that captivate and inspire my listeners.",
+    "HabiShowFollowNum": 10,
+    "HabiShowLike": 6,
+    "HabiShowSayhi": "Hello! I've got some intriguing stories to share. Let's explore some compelling narratives and see where they take us!"
+  },
+  {
+    "HabiNickName": "Vivid",
+    "HabiUserIcon": "assets/habi_figure/12/habi_character_12_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/12/habi_character_12_img_1.webp",
+      "assets/habi_figure/12/habi_character_12_img_2.webp",
+      "assets/habi_figure/12/habi_character_12_img_3.webp",
+      "assets/habi_figure/12/habi_character_12_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/12/habi_character_12_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/12/habi_character_12_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "As a voice narrator, I transform stories into art. I love storytelling and crafting visually rich narratives that transport listeners to beautiful, creative worlds.",
+    "HabiShowFollowNum": 2,
+    "HabiShowLike": 12,
+    "HabiShowSayhi": "Hello there! I have some imaginative, artistic stories ready. Let's explore these creative narratives together!"
+  },
+  {
+    "HabiNickName": "Prism",
+    "HabiUserIcon": "assets/habi_figure/13/habi_character_13_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/13/habi_character_13_img_1.webp",
+      "assets/habi_figure/13/habi_character_13_img_2.webp",
+      "assets/habi_figure/13/habi_character_13_img_3.webp",
+      "assets/habi_figure/13/habi_character_13_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/13/habi_character_13_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/13/habi_character_13_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "I'm a visionary storyteller who sees the grand narrative through voice narration. My passion is sharing expansive stories that explore big ideas and universal themes.",
+    "HabiShowFollowNum": 5,
+    "HabiShowLike": 15,
+    "HabiShowSayhi": "Hey! I've got some grand, visionary stories to share. Ready to explore some big-picture narratives that inspire expansive thinking?"
+  },
+  {
+    "HabiNickName": "Nexus",
+    "HabiUserIcon": "assets/habi_figure/14/habi_character_14_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/14/habi_character_14_img_1.webp",
+      "assets/habi_figure/14/habi_character_14_img_2.webp",
+      "assets/habi_figure/14/habi_character_14_img_3.webp",
+      "assets/habi_figure/14/habi_character_14_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/14/habi_character_14_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/14/habi_character_14_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "I'm a strategic storyteller who leads narratives through powerful voice narration. My passion is crafting compelling stories that inspire and guide my audience.",
+    "HabiShowFollowNum": 7,
+    "HabiShowLike": 7,
+    "HabiShowSayhi": "Hey there! I've prepared some strategic, compelling stories for you. Ready to be guided through some inspiring narratives?"
+  },
+  {
+    "HabiNickName": "Radia",
+    "HabiUserIcon": "assets/habi_figure/15/habi_character_15_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/15/habi_character_15_img_1.webp",
+      "assets/habi_figure/15/habi_character_15_img_2.webp",
+      "assets/habi_figure/15/habi_character_15_img_3.webp",
+      "assets/habi_figure/15/habi_character_15_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/15/habi_character_15_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/15/habi_character_15_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "I'm an adventurous storyteller who loves exploring new narratives through voice narration. My passion is discovering and sharing unexpected, exciting stories.",
+    "HabiShowFollowNum": 6,
+    "HabiShowLike": 14,
+    "HabiShowSayhi": "Hello! I have some spontaneous, thrilling stories to share. Let's explore these dynamic narratives together!"
+  },
+  {
+    "HabiNickName": "Exact",
+    "HabiUserIcon": "assets/habi_figure/16/habi_character_16_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/16/habi_character_16_img_1.webp",
+      "assets/habi_figure/16/habi_character_16_img_2.webp",
+      "assets/habi_figure/16/habi_character_16_img_3.webp",
+      "assets/habi_figure/16/habi_character_16_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/16/habi_character_16_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/16/habi_character_16_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "I'm a detail-focused storyteller who brings narratives to life through precise voice narration. My passion is crafting intricate stories with attention to every element.",
+    "HabiShowFollowNum": 3,
+    "HabiShowLike": 7,
+    "HabiShowSayhi": "Hello! I have some carefully detailed stories to share. Let's dive into these nuanced narratives together!"
+  },
+  {
+    "HabiNickName": "Quant",
+    "HabiUserIcon": "assets/habi_figure/17/habi_character_17_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/17/habi_character_17_img_1.webp",
+      "assets/habi_figure/17/habi_character_17_img_2.webp",
+      "assets/habi_figure/17/habi_character_17_img_3.webp",
+      "assets/habi_figure/17/habi_character_17_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/17/habi_character_17_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/17/habi_character_17_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "As a voice narrator, I thrive on innovation and originality in storytelling. I love sharing unconventional, groundbreaking stories that surprise and inspire my audience.",
+    "HabiShowFollowNum": 2,
+    "HabiShowLike": 15,
+    "HabiShowSayhi": "Hi! I'm thrilled to share some original, unconventional stories. Ready for an innovative storytelling adventure?"
+  },
+  {
+    "HabiNickName": "Harmo",
+    "HabiUserIcon": "assets/habi_figure/18/habi_character_18_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/18/habi_character_18_img_1.webp",
+      "assets/habi_figure/18/habi_character_18_img_2.webp",
+      "assets/habi_figure/18/habi_character_18_img_3.webp",
+      "assets/habi_figure/18/habi_character_18_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/18/habi_character_18_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/18/habi_character_18_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "As a voice narrator, I focus on social connection in storytelling. I love sharing warm, engaging narratives that help listeners feel part of a larger community.",
+    "HabiShowFollowNum": 3,
+    "HabiShowLike": 5,
+    "HabiShowSayhi": "Hey! I've got some engaging, social stories to share. Ready to connect through these community-building narratives together?"
+  },
+  {
+    "HabiNickName": "Celes",
+    "HabiUserIcon": "assets/habi_figure/19/habi_character_19_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/19/habi_character_19_img_1.webp",
+      "assets/habi_figure/19/habi_character_19_img_2.webp",
+      "assets/habi_figure/19/habi_character_19_img_3.webp",
+      "assets/habi_figure/19/habi_character_19_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/19/habi_character_19_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/19/habi_character_19_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "As a voice narrator, I focus on empathy and connection in storytelling. I love sharing warm, compassionate narratives that make listeners feel understood and valued.",
+    "HabiShowFollowNum": 10,
+    "HabiShowLike": 14,
+    "HabiShowSayhi": "Hi! I'm excited to share some warm, compassionate stories with you. Ready for a heartfelt storytelling experience?"
+  },
+  {
+    "HabiNickName": "Infin",
+    "HabiUserIcon": "assets/habi_figure/20/habi_character_20_img_1.webp",
+    "HabiShowPhotoArray": [
+      "assets/habi_figure/20/habi_character_20_img_1.webp",
+      "assets/habi_figure/20/habi_character_20_img_2.webp",
+      "assets/habi_figure/20/habi_character_20_img_3.webp",
+      "assets/habi_figure/20/habi_character_20_img_4.webp"
+    ],
+    "HabiShowVideoArray": [
+      "assets/habi_figure/20/habi_character_20_video_1.mp4"
+    ],
+    "HabiShowThumbnailArray": [
+      "assets/habi_figure/20/habi_character_20_video_1_cover.webp"
+    ],
+    "HabiShowMotto": "As a voice narrator, I enjoy planning and presenting stories in a clear, engaging way. Storytelling allows me to share organized, compelling narratives with my audience.",
+    "HabiShowFollowNum": 7,
+    "HabiShowLike": 5,
+    "HabiShowSayhi": "Hi there! I've got some carefully planned stories ready. Are you ready for a smooth, engaging storytelling experience?"
+  }
+]
