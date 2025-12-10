@@ -27,7 +27,7 @@ class _MyProfilePageState extends State<MyProfilePage> {
   Future<void> _loadUserInfo() async {
     try {
       final prefs = await SharedPreferences.getInstance();
-      final name = prefs.getString('user_name') ?? 'Habi-';
+      final name = prefs.getString('user_name') ?? 'Totoa';
       final signature = prefs.getString('user_signature') ?? 'No personal signature yet';
       final avatarRelativePath = prefs.getString('user_avatar_path');
 
@@ -43,7 +43,7 @@ class _MyProfilePageState extends State<MyProfilePage> {
       });
     } catch (e) {
       setState(() {
-        _nameController.text = 'Habi-';
+        _nameController.text = 'Totoa';
         _signatureController.text = 'No personal signature yet';
         _avatarPath = null;
         _isLoading = false;

@@ -16,7 +16,7 @@ class _PrivacyPolicyPageState extends State<PrivacyPolicyPage> {
     super.initState();
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(Uri.parse('https://www.privacypolicies.com/live/39b7b529-b139-4174-975b-ef73fb3593a8'));
+      ..loadRequest(Uri.parse('https://www.privacypolicies.com/live/49cc79bc-33bd-4999-81a2-1182d06ee9c0'));
   }
 
   @override

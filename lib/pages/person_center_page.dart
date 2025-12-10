@@ -63,7 +63,7 @@ class _ProfileCard extends StatefulWidget {
 }
 
 class _ProfileCardState extends State<_ProfileCard> {
-  String _userName = 'Habi-';
+  String _userName = 'Totoa';
   String _userSignature = 'No personal signature yet';
   File? _avatarFile;
   bool _isLoading = true;
@@ -77,7 +77,7 @@ class _ProfileCardState extends State<_ProfileCard> {
   Future<void> _loadUserInfo() async {
     try {
       final prefs = await SharedPreferences.getInstance();
-      final name = prefs.getString('user_name') ?? 'Habi-';
+      final name = prefs.getString('user_name') ?? 'Totoa';
       final signature = prefs.getString('user_signature') ?? 'No personal signature yet';
       final avatarRelativePath = prefs.getString('user_avatar_path');
 
@@ -103,7 +103,7 @@ class _ProfileCardState extends State<_ProfileCard> {
       });
     } catch (e) {
       setState(() {
-        _userName = 'Habi-';
+        _userName = 'Totoa';
         _userSignature = 'No personal signature yet';
         _avatarFile = null;
         _isLoading = false;

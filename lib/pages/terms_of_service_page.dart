@@ -16,7 +16,7 @@ class _TermsOfServicePageState extends State<TermsOfServicePage> {
     super.initState();
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(Uri.parse('https://www.privacypolicies.com/live/6f0010fd-8adf-491f-8d25-eaab6ac8c358'));
+      ..loadRequest(Uri.parse('https://www.privacypolicies.com/live/40ce0c98-d003-4e58-9732-8e7c30e6da40'));
   }
 
   @override
