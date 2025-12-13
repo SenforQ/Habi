@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -178,10 +179,11 @@ class _FigureChatPageState extends State<FigureChatPage> {
         : 'assets/bg_ai_content_bg.webp';
 
     return Scaffold(
-      backgroundColor: const Color(0xFF491EFE),
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
+        systemOverlayStyle: SystemUiOverlayStyle.light,
         leading: IconButton(
           onPressed: () => Navigator.of(context).pop(),
           padding: EdgeInsets.zero,

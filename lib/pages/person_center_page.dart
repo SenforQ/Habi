@@ -6,6 +6,7 @@ import 'privacy_policy_page.dart';
 import 'terms_of_service_page.dart';
 import 'about_us_page.dart';
 import 'my_profile_page.dart';
+import 'wallet_habi_page.dart';
 
 class PersonCenterPage extends StatelessWidget {
   const PersonCenterPage({super.key});
@@ -45,6 +46,21 @@ class PersonCenterPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   _ProfileCard(),
+                  const SizedBox(height: 20),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => const WalletHabiPage(),
+                        ),
+                      );
+                    },
+                    child: Image.asset(
+                      'assets/wallet_mark_cell.webp',
+                      width: screenSize.width - 40,
+                      fit: BoxFit.fitWidth,
+                    ),
+                  ),
                   const SizedBox(height: 20),
                   _SettingsCard(),
                 ],

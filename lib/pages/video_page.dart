@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class VideoPage extends StatefulWidget {
   final String nickname;
@@ -78,10 +79,11 @@ class _VideoPageState extends State<VideoPage> {
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.transparent,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
+        systemOverlayStyle: SystemUiOverlayStyle.light,
         leading: IconButton(
           onPressed: _hangup,
           icon: Image.asset(
@@ -91,6 +93,7 @@ class _VideoPageState extends State<VideoPage> {
           ),
         ),
       ),
+      extendBodyBehindAppBar: true,
       body: Stack(
         children: [
           Positioned.fill(
@@ -108,48 +111,56 @@ class _VideoPageState extends State<VideoPage> {
           SafeArea(
             child: Column(
               children: [
-                const SizedBox(height: 24),
-                Center(
-                  child: Column(
+                Padding(
+                  padding: const EdgeInsets.only(left: 20, top: 24),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       ClipRRect(
-                        borderRadius: BorderRadius.circular(24),
+                        borderRadius: BorderRadius.circular(20),
                         child: Image.asset(
                           widget.avatar,
-                          width: screenSize.width * 0.45,
-                          height: screenSize.width * 0.45,
+                          width: 60,
+                          height: 60,
                           fit: BoxFit.cover,
                           errorBuilder: (_, __, ___) => Container(
-                            width: screenSize.width * 0.45,
-                            height: screenSize.width * 0.45,
+                            width: 60,
+                            height: 60,
                             color: Colors.grey.withOpacity(0.3),
-                            child: const Icon(Icons.person, color: Colors.white, size: 80),
+                            child: const Icon(Icons.person, color: Colors.white, size: 30),
                           ),
                         ),
                       ),
-                      const SizedBox(height: 16),
-                      Text(
-                        widget.nickname,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 26,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        _isPlaying ? 'Calling...' : 'Connecting...',
-                        style: TextStyle(
-                          color: Colors.white.withOpacity(0.7),
-                          fontSize: 16,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'Auto hang up in ${_format(_secondsLeft)}',
-                        style: TextStyle(
-                          color: Colors.white.withOpacity(0.7),
-                          fontSize: 14,
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              widget.nickname,
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              _isPlaying ? 'Calling...' : 'Connecting...',
+                              style: TextStyle(
+                                color: Colors.white.withOpacity(0.7),
+                                fontSize: 14,
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              'Auto hang up in ${_format(_secondsLeft)}',
+                              style: TextStyle(
+                                color: Colors.white.withOpacity(0.7),
+                                fontSize: 12,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ],

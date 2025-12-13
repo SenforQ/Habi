@@ -3,6 +3,7 @@ import 'person_center_page.dart';
 import 'rob_bot_chat_page.dart';
 import 'rob_chat_page.dart';
 import 'dynamic_page.dart';
+import '../services/coin_service.dart';
 
 class HomeHabiPage extends StatefulWidget {
   const HomeHabiPage({super.key});
@@ -92,18 +93,103 @@ class _HomeHabiPageState extends State<HomeHabiPage> {
                         Padding(
                           padding: const EdgeInsets.only(right: 8),
                           child: GestureDetector(
-                            onTap: () {
+                            onTap: () async {
                               final message = _workoutController.text.trim();
-                              if (message.isNotEmpty) {
-                                Navigator.of(context).push(
-                                  MaterialPageRoute(
-                                    builder: (_) => RobChatPage(
-                                      initialMessage: message,
+                              if (message.isEmpty) return;
+                              
+                              final hasEnoughCoins = await CoinService.hasEnoughCoins(20);
+                              if (!hasEnoughCoins) {
+                                if (!mounted) return;
+                                showDialog(
+                                  context: context,
+                                  builder: (_) => AlertDialog(
+                                    backgroundColor: Colors.white,
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(20),
                                     ),
+                                    title: const Text(
+                                      'Insufficient Coins',
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                    content: const Text(
+                                      'You need 20 Coins to use the "Today\'s Workout?" AI feature. Please purchase more coins.',
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                    actions: [
+                                      TextButton(
+                                        onPressed: () => Navigator.of(context).pop(),
+                                        child: const Text(
+                                          'OK',
+                                          style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 16,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 );
-                                _workoutController.clear();
+                                return;
                               }
+                              
+                              final success = await CoinService.deductCoins(20);
+                              if (!success) {
+                                if (!mounted) return;
+                                showDialog(
+                                  context: context,
+                                  builder: (_) => AlertDialog(
+                                    backgroundColor: Colors.white,
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(20),
+                                    ),
+                                    title: const Text(
+                                      'Error',
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                    content: const Text(
+                                      'Failed to deduct coins. Please try again.',
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                    actions: [
+                                      TextButton(
+                                        onPressed: () => Navigator.of(context).pop(),
+                                        child: const Text(
+                                          'OK',
+                                          style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 16,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                );
+                                return;
+                              }
+                              
+                              if (!mounted) return;
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (_) => RobChatPage(
+                                    initialMessage: message,
+                                  ),
+                                ),
+                              );
+                              _workoutController.clear();
                             },
                             child: Image.asset(
                               'assets/btn_home_send.webp',

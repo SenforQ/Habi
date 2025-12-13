@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedcontainerFormVisibility</key>
+	<string>draggableBaseType</string>
+	<key>callbackWithMode</key>
+	<string>interactiveScrollOpacity</string>
+	<key>directSegueTint</key>
+	<string>queueAndType</string>
+	<key>sliderFacadeAcceleration</key>
+	<string>advancedSessionPressure</string>
+	<key>usageVersusParam</key>
+	<string>nibActivityCount</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>constMethodDelay</key>
+	<string>requestViaEnvironment</string>
+	<key>crucialExtensionBrightness</key>
+	<string>granularSpotBrightness</string>
+	<key>injectionLevelForce</key>
+	<string>dependencyNumberMode</string>
+	<key>lossAmongWork</key>
+	<string>titleDuringPrototype</string>
+	<key>normalNibMargin</key>
+	<string>entityStrategyRotation</string>
+	<key>presenterStateName</key>
+	<string>intermediateResultTint</string>
+	<key>tabviewVarPosition</key>
+	<string>loopLikeFacade</string>
+</dict>
+</plist>

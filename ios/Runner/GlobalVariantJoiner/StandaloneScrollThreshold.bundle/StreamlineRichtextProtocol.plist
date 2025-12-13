@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aspectStyleDelay</key>
+	<string>serviceParamBorder</string>
+	<key>channelInOperation</key>
+	<string>webGrayscaleFormat</string>
+	<key>inactiveButtonBorder</key>
+	<string>hardShaderStyle</string>
+	<key>painterMediatorState</key>
+	<string>chapterStyleBehavior</string>
+	<key>pivotalTimerOpacity</key>
+	<string>alignmentForLevel</string>
+</dict>
+</plist>
