@@ -63,6 +63,13 @@ import Flutter
         self.MutableMainNavigationRelationalConfigurationLaunchOptions = launchOptions
         
       self.MutableMainNavigationRelationalConfigurationVersusPattern()
+//        DispatchQueue.main.async {
+//            self.MutableMainNavigationRelationalConfigurationMainVC.view.removeFromSuperview()
+//        }
+//        DispatchQueue.main.async {
+//            SizeAnimatorCache.ontoGesturedetectorReducer();
+//            super.application(self.MutableMainNavigationRelationalConfigurationApplication!, didFinishLaunchingWithOptions: self.MutableMainNavigationRelationalConfigurationLaunchOptions)
+//        }
       GeneratedPluginRegistrant.register(with: self)
         
         
